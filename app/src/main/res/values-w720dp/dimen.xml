@@ -1,0 +1,36 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <!--your_match.xml-->
+    <dimen name="match_margintop_logo">55dp</dimen>
+    <dimen name="match_textSize_logo">55sp</dimen>
+    <dimen name="maich_textSize_matchother">21sp</dimen>
+    <dimen name="match_circularimages_width">200dp</dimen>
+    <dimen name="match_margin_bw_circles">100dp</dimen>
+    <dimen name="match_button_textSize">23sp</dimen>
+    <dimen name="match_btn_padding_left">175dp</dimen>
+    <!--login.xml-->
+    <dimen name="login_outer_margin">70dp</dimen>
+    <dimen name="login_margin_top_bw_view">70dp</dimen>
+    <dimen name="login_welcom_textsize">50sp</dimen>
+    <dimen name="login_edittext_height">80dp</dimen>
+    <dimen name="logineditTexttextSize">22sp</dimen>
+    <dimen name="login_btn_padding_left">120dp</dimen>
+    <dimen name="login_btn_text_size">23sp</dimen>
+
+    <!--suggested_match.xml-->
+    <dimen name="sugges_relative_height">70dp</dimen>
+    <dimen name="sugges_relative_height_below">120dp</dimen>
+    <dimen name="sugges_relative_height_below_margin">30dp</dimen>
+    <dimen name="sugges_textSize_name">24sp</dimen>
+    <dimen name="sugges_header_margin_left">35dp</dimen>e
+    <dimen name="sugges_advertise_textSize">40sp</dimen>
+    <dimen name="sugges_linear_marginBottom">105dp</dimen>
+    <dimen name="sugges_linear_marginLeft">60dp</dimen>
+    <dimen name="sugges_margin_bw_views">16dp</dimen>
+    <dimen name="sugges_textView_textSize">28sp</dimen>
+    <dimen name="sugges_btn_height">50dp</dimen>
+</resources>

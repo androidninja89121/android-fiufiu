@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="theme_black">#393939</drawable>
+
+    <color name="gray_dk">#313031</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#008ace</color>
+    <color name="gray">#5B5B5B</color>
+    <color name="light_gray">#E4E4E4</color>
+    <color name="green">#00ff00</color>
+    <color name="red">#ff0000</color>
+    <color name="red_dark">#b10300</color>
+	<color name="dkGray">#ff191919</color>
+    <color name="error_font">#444444</color>
+</resources>

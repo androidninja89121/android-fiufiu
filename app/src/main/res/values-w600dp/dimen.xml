@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--your_match.xml-->
+    <dimen name="match_margintop_logo">45dp</dimen>
+    <dimen name="match_textSize_logo">50sp</dimen>
+    <dimen name="maich_textSize_matchother">17sp</dimen>
+    <dimen name="match_circularimages_width">160dp</dimen>
+    <dimen name="match_margin_bw_circles">38dp</dimen>
+    <dimen name="match_button_textSize">21sp</dimen>
+    <dimen name="match_btn_padding_left">125dp</dimen>
+    <!--login.xml-->
+    <dimen name="login_outer_margin">65dp</dimen>
+    <dimen name="login_margin_top_bw_view">45dp</dimen>
+    <dimen name="login_welcom_textsize">48sp</dimen>
+    <dimen name="login_edittext_height">60dp</dimen>
+    <dimen name="logineditTexttextSize">20sp</dimen>
+    <dimen name="login_btn_padding_left">80dp</dimen>
+    <dimen name="login_btn_text_size">21sp</dimen>
+
+    <!--suggested_match.xml-->
+    <dimen name="sugges_relative_height">60dp</dimen>
+    <dimen name="sugges_relative_height_below">100dp</dimen>
+    <dimen name="sugges_relative_height_below_margin">20dp</dimen>
+    <dimen name="sugges_textSize_name">20sp</dimen>
+    <dimen name="sugges_header_margin_left">25dp</dimen>
+    <dimen name="sugges_advertise_textSize">40sp</dimen>
+    <dimen name="sugges_linear_marginBottom">75dp</dimen>
+    <dimen name="sugges_linear_marginLeft">40dp</dimen>
+    <dimen name="sugges_margin_bw_views">13dp</dimen>
+    <dimen name="sugges_textView_textSize">24sp</dimen>
+    <dimen name="sugges_btn_height">42dp</dimen>
+</resources>

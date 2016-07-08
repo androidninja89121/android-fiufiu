@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:background="@drawable/bg_new_match"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_margin="@dimen/login_outer_margin"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_found_new_match"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="@dimen/match_textSize_logo"
+            android:id="@+id/textViewAppLogo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_match_each_other"
+            android:id="@+id/textViewMatch"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/maich_textSize_matchother"
+            android:layout_marginTop="@dimen/match_margintop_logo"
+            android:layout_below="@+id/textViewAppLogo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewMatch"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/match_margintop_logo"
+            android:id="@+id/linearLayout"
+            >
+            <com.pkmmte.view.CircularImageView
+                android:layout_width="@dimen/match_circularimages_width"
+                android:layout_height="@dimen/match_circularimages_width"
+                android:id="@+id/imgvLeftNavPhoto"
+                android:layout_alignParentLeft="true"
+                app:border="true"
+                app:border_color="@color/white"
+                android:layout_marginLeft="@dimen/match_margin_bw_circles"
+                app:border_width="3dp"
+                android:src="@drawable/imagesgirl" />
+            <com.pkmmte.view.CircularImageView
+                android:layout_width="@dimen/match_circularimages_width"
+                android:layout_height="@dimen/match_circularimages_width"
+                android:id="@+id/imgvRight"
+                app:border="true"
+                android:layout_marginRight="@dimen/match_margin_bw_circles"
+                app:border_color="@color/white"
+                android:layout_alignParentRight="true"
+                app:border_width="3dp"
+                android:src="@drawable/imagesgirl"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/match_margintop_logo"
+            android:layout_height="wrap_content"
+            android:text="@string/text_match_chat_each_other"
+            android:textColor="@color/black"
+            android:textSize="@dimen/maich_textSize_matchother"
+            android:id="@+id/textView24"
+            android:layout_below="@+id/linearLayout"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:text="@string/text_message"
+            android:drawableLeft="@drawable/msg_icon"
+            android:paddingLeft="@dimen/match_btn_padding_left"
+            android:paddingRight="@dimen/match_btn_padding_left"
+            android:id="@+id/buttonMessage"
+            android:layout_marginTop="@dimen/match_margintop_logo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/match_button_textSize"
+            android:background="@drawable/large_btn"
+            android:layout_below="@+id/textView24"
+            android:layout_alignLeft="@+id/buttonKeepLooking"
+            android:layout_alignStart="@+id/buttonKeepLooking"
+            android:layout_alignRight="@+id/buttonKeepLooking"
+            android:layout_alignEnd="@+id/buttonKeepLooking" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:text="@string/text_keep_looking"
+            android:id="@+id/buttonKeepLooking"
+            android:drawableLeft="@drawable/keep_looking_icon"
+            android:paddingLeft="@dimen/match_btn_padding_left"
+            android:paddingRight="@dimen/match_btn_padding_left"
+            android:textColor="@color/white"
+            android:textSize="@dimen/match_button_textSize"
+            android:layout_marginTop="@dimen/match_margintop_logo"
+            android:background="@drawable/large_btn"
+            android:layout_below="@+id/buttonMessage"
+            />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

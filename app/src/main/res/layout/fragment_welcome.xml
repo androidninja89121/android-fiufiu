@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_welcome_2">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/login_outer_margin"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/login_margin_top_bw_view"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout8">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Welcome to "
+                android:id="@+id/textView14"
+                android:textColor="#fff"
+                android:gravity="right"
+                android:textSize="@dimen/login_welcom_textsize"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Fiufiu"
+                android:id="@+id/textView15"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#da2a13"
+                android:textSize="@dimen/login_welcom_textsize"
+                android:layout_toRightOf="@+id/textView14"
+                android:layout_toEndOf="@+id/textView14" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:text="@string/text_login_facebook"
+            android:id="@+id/btnFacebook"
+            android:layout_below="@+id/relativeLayout8"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_btn_facebook"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/sugges_relative_height_below" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:layout_below="@+id/btnFacebook"
+            android:layout_alignLeft="@+id/btnFacebook"
+            android:layout_marginTop="@dimen/login_outer_margin"
+            android:layout_alignRight="@+id/btnFacebook"
+            android:id="@+id/relativeLayout">
+
+            <ImageView
+                android:layout_width="@dimen/login_edittext_height"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_or"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/ic_white_bar"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_marginRight="@dimen/login_outer_margin" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_marginLeft="@dimen/login_outer_margin"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_white_bar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_or"
+                android:id="@+id/textView3"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignBottom="@+id/imageView"
+                android:gravity="center_vertical|center_horizontal" />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:text="@string/text_login_google_plus"
+            android:id="@+id/btnGooglePlus"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignRight="@+id/btnFacebook"
+            android:background="@drawable/bg_btn_google"
+            android:layout_alignLeft="@+id/btnFacebook"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/login_outer_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_need_an_account"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnGooglePlus"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/text_signup_now"
+                android:id="@+id/btnSignup"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_signup"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/text_login_now"
+                android:id="@+id/btnLogin"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/login_outer_margin"
+                android:background="@drawable/bg_btn_signup"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

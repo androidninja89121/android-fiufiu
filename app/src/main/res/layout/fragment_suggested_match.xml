@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_new_match">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_newmatch_head"
+        android:id="@+id/textViewAppLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Content"
+        android:id="@+id/textViewMatch"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewAppLogo"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewMatch"
+        android:layout_marginTop="30dp"
+        android:id="@+id/lyPhoto">
+        <com.pkmmte.view.CircularImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgvLeftNavPhoto"
+            app:border="true"
+            app:border_color="#FFFFFF"
+            app:border_width="3dp"
+            android:layout_weight="1" />
+        <com.pkmmte.view.CircularImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgvRight"
+            android:layout_weight="1"
+            app:border="true"
+            app:border_color="#FFFFFF"
+            app:border_width="3dp"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lyPhoto"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn_large"
+        android:layout_above="@+id/rlyButtonFindMore"
+        android:id="@+id/rlyButtonChatMe">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView15"
+                android:src="@drawable/ic_msg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tvButtonChatMe"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_btn_large"
+        android:id="@+id/rlyButtonFindMore"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView14"
+                android:src="@drawable/ic_keep_looking" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_newmatch_findmore"
+                android:id="@+id/textView9"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

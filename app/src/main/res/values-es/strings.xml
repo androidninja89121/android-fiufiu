@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Fiufiu</string>
+    <string name="facebook_app_id">807224719375385</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6656671446346255/4878929120</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="title_contacts">Contactos</string>
+    <string name="title_matches">Coqueteos</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_contacts_no_matches">Sin coqueteos</string>
+    <string name="title_finding_matches">Buscando personas</string>
+    <string name="text_years">años</string>
+    <string name="text_male">Hombre</string>
+    <string name="text_female">Mujer</string>
+    <string name="text_saving">Guardando</string>
+    <string name="text_login">Login</string>
+    <string name="text_gender">Sexo</string>
+    <string name="text_signup">Inscribirse</string>
+    <string name="text_email">Email</string>
+    <string name="text_save">Guardar</string>
+    <string name="text_or">o</string>
+    <string name="text_username">Usuario</string>
+    <string name="text_password">Password</string>
+    <string name="text_big_login">LOG IN</string>
+    <string name="text_big_signup">CADASTRE-SE</string>
+    <string name="text_no_chat_history">No hay historia de chat</string>
+    <string name="text_enter_user_name">Por favor, introduzca el nombre de usuario</string>
+    <string name="text_enter_password">Por favor, introduzca la contraseña</string>
+    <string name="text_enter_email">Por favor, introduzca su correo electrónico</string>
+    <string name="text_enter_photo">Seleccione una foto al perfil</string>
+    <string name="text_enter_gender">Introduzca su sexo</string>
+    <string name="text_enter_lookingfor_gender">Por favor, diga que el sexo que usted busca</string>
+    <string name="text_reg_id_not_ready"></string>
+    <string name="text_looking_for">Busco</string>
+    <string name="text_choose_picture">Elige una foto</string>
+    <string name="text_not_support_crop">El dispositivo no admite la corte</string>
+    <string name="text_says">dice</string>
+    <string name="text_like_you">le gusta</string>
+    <string name="text_type">tipo</string>
+    <string name="text_you_dont_have_any">Usted no tiene</string>
+    <string name="text_matches_yet">coqueteos</string>
+    <string name="text_you_dont_have_any_matches_yet">No tengo ningún contacto</string>
+    <string name="text_when_they_like_you_back_its_contact">y cuando ellas se gustan usted</string>
+    <string name="text_will_be_available_here">serán incluidas en sus contactos</string>
+    <string name="text_start_now">Comience ahora</string>
+    <string name="text_welcome_fiufiu">Bienvenido a Fiufiu</string>
+    <string name="text_back_to_home">Volver</string>
+    <string name="text_pls_wait_while_we_are_finding">Espere mientras buscamos</string>
+    <string name="text_matches_next_to_you">personas cercanas a usted</string>
+    <string name="text_sex_looking_for">Sexo que usted busca</string>
+    <string name="text_notify_like">Notificaciones quando gustarem de yo</string>
+    <string name="text_notify_msg">Notificaciones de mensajes recibidas</string>
+    <string name="text_create_account">Crear una cuenta</string>
+    <string name="text_login_facebook">Conectate con Facebook</string>
+    <string name="text_login_google_plus">Conectate con Google+</string>
+    <string name="text_need_an_account">Crear una cuenta</string>
+    <string name="text_signup_now">Registro</string>
+    <string name="text_login_now">Iniciar sesión</string>
+    <string name="text_good">Me gustó</string>
+    <string name="text_bad">No me gusta</string>
+    <string name="text_you_must_like_other_users">Te tiene que gustar a otras personas. Cuando ellas se gustan usted serán incluidas en sus contactos para hablar</string>
+    <string name="text_gpsrequired">Debe activar los servicios de localización para permitir Fiufiu encontrar personas a tu lado</string>
+    <string name="button_gpsrequired_config">Ir a Configuraciones</string>
+    <string name="button_gpsrequired_cancel">Cancelar</string>
+    <string name="title_newmatch">Nuevo coqueteo</string>
+    <string name="text_newmatch1" formatted="false">You and %s liked each other</string>
+    <string name="text_newmatch2" formatted="false">%s también le gusta. Ahora puedes chatear. %s se acaba de agregar a su lista de contactos.</string>
+    <string name="text_newmatch_buttonchat" formatted="false">Chatear con %s</string>
+    <string name="text_newmatch_findmore">Encuentra más gente</string>
+    <string name="push_newmatch"  formatted="false">Usted tiene un nuevo coqueteo con %s! Ahora pueden chatear.</string>
+    <string name="push_newlike"  formatted="false">%s te gustó!</string>
+    <string name="text_newmatch_head">Nuevo coqueteo!!!</string>
+    <string name="text_found_new_match">!!!Tienes cerilla!!!</string>
+    <string name="text_match_each_other">Usted y julia has guiÃ±ado el uno al otro</string>
+    <string name="text_message">Mensaje Julia</string>
+    <string name="text_keep_looking">Â¡Seguir mirando!</string>
+    <string name="text_match_chat_each_other">Ahora puedes chatear entre sÃ­ . Julia ahora se agrega a su lista de contactos</string>
+    <string name="text_login_manually">Crear cuenta manualmente</string>
+    <string name="text_sugges_text_name">Drames Barnes</string>
+    <string name="text_sugges_age">28 aÃ±os</string>
+    <string name="text_sugges_distance">Distancia  </string>
+    <string name="text_advertise_here">Anunciar aquÃ­</string>
+</resources>

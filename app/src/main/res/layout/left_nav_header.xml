@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imageView12"
+        android:background="@drawable/bg_leftbar_top" />
+
+    <com.pkmmte.view.CircularImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imgvLeftNavPhoto"
+        android:layout_below="@+id/textView5"
+        app:border="true"
+        app:border_color="#EEEEEE"
+        app:border_width="2dp"
+        android:src="@drawable/img_user_photo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Demo Name"
+        android:id="@+id/tvLeftNavUserName"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_toRightOf="@+id/imgvLeftNavPhoto"
+        android:layout_toEndOf="@+id/imgvLeftNavPhoto"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+</RelativeLayout>
